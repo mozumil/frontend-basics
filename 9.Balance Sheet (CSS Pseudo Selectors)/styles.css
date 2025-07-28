@@ -1,14 +1,14 @@
 span[class~="sr-only"] {
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 0;
-  margin: -1px;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  width: 1px !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  padding: 0 !important;
+  margin: -1px !important;
 }
 
 html {
@@ -50,7 +50,30 @@ section {
   display: flex;
   justify-content: flex-end;
   position: sticky;
+  z-index: 999;
   top: 0;
   background: #0a0a23;
   color: #fff;
+  padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+  margin: 0 -2px;
+}
+
+#years span[class] {
+  font-weight: bold;
+  width: 4.5rem;
+  text-align: right;
+}
+
+.table-wrap {
+  padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+span {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+
 }
