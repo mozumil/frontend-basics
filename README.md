@@ -20,7 +20,7 @@ Code examples are simple and beginner-friendly, aimed at building strong fundame
 ## 🛠 Tools Used
 
 - Visual Studio Code  
-- Live Server (VS Code extension)  
+- Live Server (VS Code Extension)  
 - Chrome Developer Tools
 
 ## 🎓 Learning Resources
