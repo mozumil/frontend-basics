@@ -9,8 +9,8 @@ This repository contains my practice work and learning progress in frontend web 
 - CSS3  
 - Responsive Design  
 - Forms and Inputs  
-- Flexbox & Grid (in progress)  
-- JavaScript (coming soon)
+- Flexbox & Grid *(in progress)*  
+- JavaScript *(coming soon)*
 
 ## 📁 Structure
 
@@ -20,8 +20,13 @@ Code examples are simple and beginner-friendly, aimed at building strong fundame
 ## 🛠 Tools Used
 
 - Visual Studio Code  
-- Live Server (VS Code Extension)  
+- Live Server (VS Code extension)  
 - Chrome Developer Tools
+
+## 🎓 Learning Resources
+
+- [IBM Full-Stack JavaScript Developer (Coursera)](https://www.coursera.org/professional-certificates/ibm-full-stack-javascript-developer)
+- [freeCodeCamp: Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 ## 🚀 Goal
 
