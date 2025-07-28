@@ -75,5 +75,14 @@ span {
 table {
   border-collapse: collapse;
   border: 0;
+  width: 100%;
+  position: relative;
+  margin-top: 3rem;
+}
+
+table caption {
+  color: #356eaf;
+  font-size: 1.3em;
+  font-weight: normal;
 
 }
