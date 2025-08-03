@@ -6,7 +6,11 @@ body {
   background-color: #c9d2fc;
 }
 
-.cat-head{
+.cat-head {
+  position: static;
+  top: 100px;
+  left: 100px;
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
   width: 205px;
   height: 180px;
   border: 1px solid #000;
