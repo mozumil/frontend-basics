@@ -7,7 +7,7 @@ body {
 }
 
 .cat-head {
-  position: static;
+  position: fixed;
   top: 100px;
   left: 100px;
   background: linear-gradient(#5e5e5e 85%, #45454f 100%);
@@ -15,4 +15,13 @@ body {
   height: 180px;
   border: 1px solid #000;
   border-radius: 46%;
+}
+
+.box {
+  width: 200px;
+  height: 600px;
+  background-color: #000;
+  position: absolute;
+  left: 650px;
+  top: 800px;
 }
