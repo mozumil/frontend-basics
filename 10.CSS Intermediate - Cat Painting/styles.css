@@ -19,12 +19,3 @@ body {
   border: 1px solid #000;
   border-radius: 46%;
 }
-
-.box {
-  width: 400px;
-  height: 600px;
-  background-color: #000;
-  position: absolute;
-  left: 650px;
-  top: 800px;
-}
