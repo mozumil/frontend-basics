@@ -157,3 +157,15 @@ body {
   background-color: #000;
 }
 
+.cat-whiskers-right div {
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.cat-whisker-left-top {
+  position: absolute;
+  top: 120px;
+  left: 52px;
+  
+}
