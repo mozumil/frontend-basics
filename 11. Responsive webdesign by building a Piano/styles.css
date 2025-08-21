@@ -44,11 +44,8 @@ html {
   border-radius: 0 0 3px 3px;
 }
 
-.logo {
-  width: 200px;
-  position: absolute;
-  top: 23px;
-}
+
+
 
 @media (max-width: 768px) {
   #piano {
