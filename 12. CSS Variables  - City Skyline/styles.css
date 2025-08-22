@@ -3,6 +3,7 @@
   --building-color2: #66cc99;
   --building-color3: #cc6699;
   --building-color4: #538cc6;
+  --window-color1: black;
 }
 
 * {
@@ -26,6 +27,7 @@ body {
   top: 0;
 }
 
+/* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
   width: 10%;
   height: 70%;
@@ -33,13 +35,11 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .bb1a {
   width: 70%;
   height: 10%;
   background-color: var(--building-color1);
 }
-
 .bb1b {
   width: 80%;
   height: 10%;
@@ -75,32 +75,45 @@ body {
   height: 58%;
   background-color: var(--building-color4);
 }
+
+/* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 .fb1 {
   width: 10%;
   height: 60%;
+  background-color: var(--building-color4);
 }
 
 .fb2 {
   width: 10%;
   height: 40%;
+  background-color: var(--building-color3);
 }
 
 .fb3 {
   width: 10%;
   height: 35%;
+  background-color: var(--building-color1);
 }
 
 .fb4 {
   width: 8%;
   height: 45%;
+  background-color: var(--building-color1);
+  position: relative;
+  left: 10%;
 }
 
 .fb5 {
   width: 10%;
   height: 33%;
+  background-color: var(--building-color2);
+  position: relative;
+  right: 10%;
 }
 
 .fb6 {
   width: 9%;
   height: 38%;
+  background-color: var(--building-color3);
 }
+    
