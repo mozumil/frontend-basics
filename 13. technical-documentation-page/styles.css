@@ -77,3 +77,35 @@ body {
   padding-bottom: 5px;
 }
 
+
+code {
+  display: block;
+  background: #f1f5f9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+
+#main-doc a {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  #navbar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
