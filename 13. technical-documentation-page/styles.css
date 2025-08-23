@@ -50,10 +50,11 @@ body {
 #navbar footer {
   font-size: 0.9rem;
   margin-bottom: 50px;
+  color: aquamarine;
 }
 
 #navbar footer a {
-  color: #f1f5f9;
+  color: aquamarine;
   text-decoration: underline;
 }
 
