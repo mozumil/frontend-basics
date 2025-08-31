@@ -1,5 +1,4 @@
 <!--
-  Frontend Basics Cheat Sheet - SEO Optimized
   A comprehensive, beginner-friendly resource for HTML, CSS, Responsive Design, Flexbox, Grid, and Forms.
   Includes code snippets, mini-projects, and learning resources for web development.
   Ideal for students, self-learners, and anyone looking to master frontend fundamentals.
