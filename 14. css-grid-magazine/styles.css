@@ -1,128 +1,265 @@
-*,
-::before,
-::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 body {
-  font-family: 'Baskervville', serif;
-  color: linen;
-  background-color: rgb(20, 30, 40);
-}
-
-h1 {
-  font-family: 'Anton', sans-serif;
-}
-
-h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: linen;
+  margin: 0;
+  font-family: 'Raleway', Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #22223b;
+  line-height: 1.7;
 }
 
 main {
-  display: grid;
-  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
-  row-gap: 3rem;
-}
-
-img {
-  width: 100%;
-  object-fit: cover;
-}
-
-hr {
-  margin: 1.5rem 0;
-  border: 1px solid rgba(120, 120, 120, 0.6);
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(60, 60, 100, 0.12);
+  overflow: hidden;
 }
 
 .heading {
-  grid-column: 2 / 3;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 1.5rem;
-}
-
-.text {
-  grid-column: 2 / 3;
-  font-size: 1.8rem;
-  letter-spacing: 0.6px;
-  column-width: 25rem;
-  text-align: justify;
-}
-
-.hero {
-  grid-column: 1 / -1;
+  padding: 2rem 2rem 1rem 2rem;
+  text-align: center;
+  background: linear-gradient(120deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
   position: relative;
 }
 
+.hero-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 12px rgba(60, 60, 100, 0.15);
+}
+
 .hero-title {
-  text-align: center;
-  color: orangered;
-  font-size: 8rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.8rem;
+  margin: 0.5rem 0 0.2rem 0;
+  letter-spacing: 2px;
 }
 
 .hero-subtitle {
-  font-size: 2.4rem;
-  color: orangered;
-  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #e0e0e0;
 }
 
 .author {
-  font-size: 2rem;
-  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.author-name a:hover {
-  background-color: #306203;
+.author-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 6px rgba(60, 60, 100, 0.12);
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.author-name a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .publish-date {
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95rem;
+  color: #d0d0d0;
 }
 
 .social-icons {
-  display: grid;
-  font-size: 3rem;
-  grid-template-columns: repeat(5, 1fr);
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
-  align-items: center;
+  margin: 0.5rem 0 0 0;
 }
 
-.first-paragraph::first-letter {
-  font-size: 6rem;
-  color: orangered;
-  float: left;
-  margin-right: 1rem;
+.social-icons a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+
+.social-icons a:hover {
+  color: #ffbe0b;
+}
+
+.sticky-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #22223b;
+  color: #fff;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.sticky-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+.sticky-nav a:hover {
+  color: #3a86ff;
+}
+
+.text {
+  padding: 2rem;
+}
+
+.first-paragraph {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #3a86ff;
+}
+
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #f1faee 60%, #a8dadc 100%);
+  border-left: 6px solid #3a86ff;
+  border-radius: 8px;
+  font-style: italic;
+  color: #22223b;
 }
 
 .quote {
-  color: #00beef;
-  font-size: 2.4rem;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-}
-
-.quote::before {
-  content: '" ';
-}
-
-.quote::after {
-  content: ' "';
+  font-family: 'Baskervville', serif;
+  font-size: 1.15rem;
+  margin: 0;
 }
 
 .text-with-images {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding-bottom: 2rem;
+}
+
+.brief-history {
+  padding-right: 1rem;
+}
+
+.list-title {
+  font-family: 'Anton', sans-serif;
+  color: #3a86ff;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lists li {
+  margin-bottom: 1.2rem;
+}
+
+.list-subtitle {
+  font-family: 'Raleway', sans-serif;
+  color: #8338ec;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.image-wrapper img {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(60, 60, 100, 0.10);
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.image-wrapper img:hover {
+  transform: scale(1.03) rotate(-1deg);
+  box-shadow: 0 6px 24px rgba(60, 60, 100, 0.18);
+}
+
+.image-quote {
+  background: linear-gradient(90deg, #f1faee 60%, #a8dadc 100%);
+  border-left: 6px solid #8338ec;
+  border-radius: 8px;
+  font-style: italic;
+  color: #22223b;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: 1.05rem;
+}
+
+.mag-footer {
+  text-align: center;
+  padding: 1.5rem 0 1rem 0;
+  background: #3a86ff;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.mag-footer a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 0.3rem;
+  transition: color 0.2s;
+}
+
+.mag-footer a:hover {
+  color: #ffbe0b;
+}
+
+@media (max-width: 900px) {
+  main {
+    margin: 1rem;
+  }
+  .text-with-images {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .brief-history {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading {
+    padding: 1.2rem 0.5rem 0.5rem 0.5rem;
+  }
+  .text {
+    padding: 1rem;
+  }
+  .sticky-nav {
+    gap: 1rem;
+    font-size: 0.97rem;
+  }
+  .mag-footer {
+    font-size: 0.95rem;
+    padding: 1rem 0 0.7rem 0;
+  }
 }
