@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-} 
+}
 
 html {
   font-size: 62.5%;
@@ -28,19 +28,31 @@ a {
   text-decoration: none;
   color: linen;
 }
- 
-main { 
+
+main {
   display: grid;
   grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
   row-gap: 3rem;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .heading {
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 1.5rem;
 }
 
 .text {
   grid-column: 2 / 3;
 }
+
+.hero {
+  grid-column: 1 / -1;
+  position: relative;
+}
+
