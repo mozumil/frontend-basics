@@ -78,3 +78,36 @@ Each folder contains topic-specific examples and mini-projects.
    ```
 2. **Open in [VS Code](https://code.visualstudio.com/)** (recommended).
 3. **Preview HTML files** using the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+
+---
+
+## 📖 Learning Resources
+
+- [IBM Full-Stack JavaScript Developer (Coursera)](https://www.coursera.org/professional-certificates/ibm-full-stack-javascript-developer)
+- [freeCodeCamp – Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+- [Kevin Powell (YouTube)](https://www.youtube.com/@KevinPowell)
+- [Web Dev Simplified (YouTube)](https://www.youtube.com/@WebDevSimplified)
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome!  
+Open an issue or submit a pull request.
+
+---
+
+## 📝 License
+
+This project is licensed under the [Apache License 2.0](LICENSE).
+
+---
+
+## 🌐 Connect with Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-mozumil-181717?style=flat&logo=github)](https://github.com/mozumil)
+[![Twitter/X](https://img.shields.io/badge/Twitter-MuzammilMirza⚡(ムザミル・ミルザ)-1DA1F2?style=flat&logo=twitter)](https://x.com/hiMuzammil)
+
+---
+
+*Made with ❤️ by [Muzammil Mirza](https://github.com/mozumil)*
