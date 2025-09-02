@@ -7,6 +7,15 @@
 
 # 🚀 Frontend Basics Cheat Sheet
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Flexbox](https://img.shields.io/badge/Flexbox-Layout-3a86ff?style=for-the-badge)
+![CSS Grid](https://img.shields.io/badge/CSS%20Grid-Layout-8338ec?style=for-the-badge)
+![Responsive](https://img.shields.io/badge/Responsive-Design-29B6F6?style=for-the-badge)
+![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen?style=for-the-badge)
+![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-yellow?style=for-the-badge)
+
+
 A practical, beginner-friendly collection of essential frontend web development concepts, code snippets, and mini-projects.  
 **Perfect for quick reference, hands-on learning, and revision!**
 
