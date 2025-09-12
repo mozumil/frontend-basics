@@ -23,15 +23,15 @@ A practical, beginner-friendly collection of essential frontend web development 
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Topics Covered](#topics-covered)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Learning Resources](#learning-resources)
-- [Contributing](#contributing)
-- [License](#license)
-- [Connect with Me](#connect-with-me)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Topics Covered](#-topics-covered)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Learning Resources](#-learning-resources)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Connect with Me](#-connect-with-me)
 
 ---
 
