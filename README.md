@@ -72,7 +72,7 @@ frontend-basics/
 ├── responsive/
 ├── forms/
 ├── flexbox-grid/
-└── js/ (coming soon)
+└── js/
 ```
 Each folder contains topic-specific examples and mini-projects.
 
