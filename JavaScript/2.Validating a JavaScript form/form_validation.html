@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="application/javascript">
+            function checkdata () {
+                var username = document.getElementById("name");
+                var email_address = document.getElementById("email");
+            
+            if (username.value == "") {
+                alert("Please enter your name");
+                username.focus();
+                return false;
+            }
+            if (email_address.value == "") {
+                alert ("Please enter your Email");
+                email_address.focus();
+                return false;
+            }
+
+            return true;
+        }
+        </script>
         <title>Contact Details</title>
     </head>
     <body>
         <h2>Enter your contact details:</h2> <br>
-        <form id="form1">
+        <form id="form1" onsubmit="return checkdata()">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name">
             <br><br>
