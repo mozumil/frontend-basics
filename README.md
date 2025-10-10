@@ -7,6 +7,11 @@
 
 # 🚀 Frontend Basics Cheat Sheet
 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ES6](https://img.shields.io/badge/ES6%2B-Syntax-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![DOM](https://img.shields.io/badge/DOM-Manipulation-ffca28?style=for-the-badge)
+![JSON](https://img.shields.io/badge/JSON-Data-ffb703?style=for-the-badge)
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Flexbox](https://img.shields.io/badge/Flexbox-Layout-3a86ff?style=for-the-badge)
@@ -114,7 +119,7 @@ This project is licensed under the [Apache License 2.0](LICENSE).
 ## 🌐 Connect with Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-mozumil-181717?style=flat&logo=github)](https://github.com/mozumil)
-[![Twitter/X](https://img.shields.io/badge/Twitter-MuzammilMirza⚡(ムザミル・ミルザ)-1DA1F2?style=flat&logo=twitter)](https://x.com/hiMuzammil)
+[![Twitter/X](https://img.shields.io/badge/Twitter-MuzammilMirza-1DA1F2?style=flat&logo=twitter)](https://x.com/hiMuzammil)
 
 ---
 
