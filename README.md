@@ -123,4 +123,4 @@ This project is licensed under the [Apache License 2.0](LICENSE).
 
 ---
 
-*Made with ❤️ by [Muzammil Mirza](https://github.com/mozumil)*
+*Made by [Muzammil Mirza](https://github.com/mozumil)*
