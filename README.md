@@ -11,7 +11,6 @@
 ![ES6](https://img.shields.io/badge/ES6%2B-Syntax-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![DOM](https://img.shields.io/badge/DOM-Manipulation-ffca28?style=for-the-badge)
 ![JSON](https://img.shields.io/badge/JSON-Data-ffb703?style=for-the-badge)
-
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Flexbox](https://img.shields.io/badge/Flexbox-Layout-3a86ff?style=for-the-badge)
@@ -64,7 +63,7 @@ Whether you're a student, self-learner, or just brushing up your skills, you'll 
 - **Responsive Design:** Media queries, mobile-first, fluid layouts
 - **Forms & Inputs:** Input types, validation, styling
 - **Flexbox & Grid:** Layout patterns, containers, areas
-- **JavaScript:** *(Coming Soon!)* DOM basics, events, simple scripts
+- **JavaScript:** DOM basics, events, simple scripts
 
 ---
 
