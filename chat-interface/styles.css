@@ -7,6 +7,12 @@ body {
     margin: auto;
     border-radius: 30px;
 }
+.container {
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
