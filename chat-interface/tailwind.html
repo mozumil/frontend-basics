@@ -8,10 +8,10 @@
     <title>Chat Interface</title>
   </head>
 
-  <body class="w-auto max-w-md m-auto">
-    <header class="flex flex-col items-center gap-4 bg-violet-700 p-4 text-white ">
-        <div class="flex items-center w-full relative">
-        <button class=""><img class="w-3 h-3" src="left-chevron.png" alt="back-button"></button>
+  <body class="w-auto max-w-md m-auto mt-10">
+    <header class="flex flex-col items-center gap-4 bg-purple-600 p-4 text-white rounded-t-2xl">
+        <div class="flex items-center w-full relative py-2">
+        <button class="cursor-pointer hover:bg-purple-700 w-5 h-5 rounded-full"><img class="w-3 h-3" src="left-chevron.png" alt="back-button"></button>
         <h1 class="font-semibold text-xl absolute left-1/2 -translate-x-1/2">Muzammil Mirza</h1>
         </div>
         <img class="w-16 h-16 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJK1sHzuzoKQpy8DJniDwJc6NR44wc-1Tlg&s" alt="profile-image">
@@ -21,21 +21,21 @@
 
     <main class="bg-gray-100 p-4 space-y-8">
         <p class="text-gray-400 p-1 text-center text-sm my-2 mt-0">Mar 30</p>
-        <div class="flex items-center gap-2">
+        <div class="flex items-end gap-2">
             <img class="w-10 h-10 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXuM2b4djVbMt63hftHrWFFMeQmccyytKlQ&s" alt="second-profile-image">
-            <p class="border rounded-sm p-2">Hey there! 👋 Want to connect with an <br> expert
+            <p class="border border-gray-300 rounded-xl p-2">Hey there! 👋 Want to connect with an <br> expert
             to talk through our <br>pricing?</p>
         </div>
-        <div>
-        <p>Find more about pricing!</p>
-        <p>Talk to an expert!</p>
+        <div class="flex flex-col items-end gap-3 justify-end mb-45">
+        <p class="border text-purple-600 p-2 rounded-md ">Find more about pricing!</p>
+        <p class="border text-purple-600 p-2 rounded-md">Talk to an expert!</p>
         </div>
     </main>
 
-    <footer>
-        <button><img class="w-6 h-6" src="paperclip.png" alt="attachment-image"></button>
-        <input class="" type="text" placeholder="Type your text...">
-        <button><img class="w-6 h-6" src="send.png" alt="send-imag"></button>
+    <footer class="flex items-center gap-2 p-4 pb-12 bg-gray-100 rounded-b-2xl">
+        <button class="w-7 h-7 rounded-full cursor-pointer hover:bg-gray-300 "><img class="w-full" src="paperclip.png" alt="attachment-image"></button>
+        <input class="flex-1 border border-gray-300 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm w-full rounded-full p-3" type="text" placeholder="Type your text...">
+        <button class="w-7 h-7 rounded-full hover:bg-gray-300 cursor-pointer"><img class="w-full" src="send.png" alt="send-image"></button>
     </footer>
 
   </body>
