@@ -9,7 +9,8 @@
   </head>
 
   <body class="w-auto max-w-md m-auto mt-10">
-    <header class="flex flex-col items-center gap-4 bg-purple-600 p-4 text-white rounded-t-2xl">
+    <div id="chat" class="hidden">
+      <header class="flex flex-col items-center gap-4 bg-purple-600 p-4 text-white rounded-t-2xl">
         <div class="flex items-center w-full relative py-2">
         <button class="cursor-pointer hover:bg-purple-700 w-5 h-5 rounded-full"><img class="w-3 h-3" src="left-chevron.png" alt="back-button"></button>
         <h1 class="font-semibold text-xl absolute left-1/2 -translate-x-1/2">Muzammil Mirza</h1>
@@ -26,17 +27,32 @@
             <p class="border border-gray-300 rounded-xl p-2">Hey there! 👋 Want to connect with an <br> expert
             to talk through our <br>pricing?</p>
         </div>
-        <div class="flex flex-col items-end gap-3 justify-end mb-45">
+        <div class="flex flex-col items-end gap-3 justify-end">
         <p class="border text-purple-600 p-2 rounded-md ">Find more about pricing!</p>
         <p class="border text-purple-600 p-2 rounded-md">Talk to an expert!</p>
         </div>
     </main>
 
     <footer class="flex items-center gap-2 p-4 pb-12 bg-gray-100 rounded-b-2xl">
-        <button class="w-7 h-7 rounded-full cursor-pointer hover:bg-gray-300 "><img class="w-full" src="paperclip.png" alt="attachment-image"></button>
+        <button class="w-7 h-7 rounded-full cursor-pointer hover:bg-gray-300 "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+        <path fill-rule="evenodd" d="M18.97 3.659a2.25 2.25 0 0 0-3.182 0l-10.94 10.94a3.75 3.75 0 1 0 5.304 5.303l7.693-7.693a.75.75 0 0 1 1.06 1.06l-7.693 7.693a5.25 5.25 0 1 1-7.424-7.424l10.939-10.94a3.75 3.75 0 1 1 5.303 5.304L9.097 18.835l-.008.008-.007.007-.002.002-.003.002A2.25 2.25 0 0 1 5.91 15.66l7.81-7.81a.75.75 0 0 1 1.061 1.06l-7.81 7.81a.75.75 0 0 0 1.054 1.068L18.97 6.84a2.25 2.25 0 0 0 0-3.182Z" clip-rule="evenodd" />
+        </svg></button>
         <input class="flex-1 border border-gray-300 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500 text-sm w-full rounded-full p-3" type="text" placeholder="Type your text...">
-        <button class="w-7 h-7 rounded-full hover:bg-gray-300 cursor-pointer"><img class="w-full" src="send.png" alt="send-image"></button>
+        <button class="w-7 h-7 rounded-full hover:bg-gray-300 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+        </svg></button>
     </footer>
+    </div>
+
+    <button onclick="toggleChat()" class="fixed rounded-full bottom-4 right-4 p-4 bg-purple-600 cursor-pointer shadow-lg hover:bg-purple-700 active:bg-orange-800 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+    </svg></button>
+
+    <script>
+      function toggleChat() {
+        document.getElementById("chat").classList.toggle("hidden");
+      }
+    </script>
 
   </body>
 </html>
